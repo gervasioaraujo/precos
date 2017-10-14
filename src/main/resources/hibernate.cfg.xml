@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<!-- Mapeamento das classes Java -->
+		<mapping class="br.com.precos.domain.Anunciante" />
+		<mapping class="br.com.precos.domain.Endereco" />
+		<mapping class="br.com.precos.domain.Contato" />
+		<mapping class="br.com.precos.domain.SegmentoComercial" />
+		<mapping class="br.com.precos.domain.Anuncio" />
+		<mapping class="br.com.precos.domain.Produto" />
+	</session-factory>
+</hibernate-configuration>
+
